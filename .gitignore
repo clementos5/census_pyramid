@@ -2,3 +2,6 @@
 venv/
 env/
 requirement.txt
+FlaskDemo/
+procfile
+untitled.ipynb
