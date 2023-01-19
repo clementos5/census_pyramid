@@ -9,10 +9,10 @@ import pandas as pd
 import plotly.graph_objs as go
 
 #import datasets
-wd = "C:/Users/pc/Desktop/census_pyramid/"
-df_age_group=pd.read_excel(wd+"Data fro census dashboard/Sex_age_group_1.xlsx")
-df_age_group_urban=pd.read_excel(wd+'Data fro census dashboard/Sex_age_group_urban.xlsx')
-df_age_group_rural=pd.read_excel(wd+'Data fro census dashboard/Sex_age_group_rural.xlsx')
+wd = "C:/Users/pc/Desktop/census_pyramid/census-data/"
+df_age_group=pd.read_excel(wd+"Sex_age_group_1.xlsx")
+df_age_group_urban=pd.read_excel(wd+'Sex_age_group_urban.xlsx')
+df_age_group_rural=pd.read_excel(wd+'Sex_age_group_rural.xlsx')
 
 #instantiate an app
 app=dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP],
